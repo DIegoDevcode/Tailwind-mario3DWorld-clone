@@ -1,17 +1,21 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.18",
-    "homepage": "./src/index.html",
-    "postcss": "^8.4.35",
-    "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.4.1"
-  },
+  "name": "tailwind_mario_3dworld_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
   "scripts": {
     "build:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "NODE_ENV=production npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
-
   },
-  "dependencies": {
-    "win-node-env": "^0.6.1"
+  "keywords": [
+    "Tailwind",
+    "HTML",
+    "CSS"
+  ],
+  "author": "juancodev <montillasanchezjuancarlos@gmail.com>",
+  "license": "ISC",
+  "homepage": ".",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }
