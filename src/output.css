@@ -930,10 +930,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1221,24 +1217,9 @@ video {
 }
 
 @media (min-width: 360px) {
-  .xxsm\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .xxsm\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
   .xxsm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .xxsm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .xxsm\:text-4xl {
