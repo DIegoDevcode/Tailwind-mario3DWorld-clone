@@ -16,7 +16,8 @@ module.exports = {
         'yellow-dots': "url('../img/pattern-yellow-dots.png')",
       }),
       screens:{
-        'xsm': '320px'
+        'xsm': '320px',
+        'xxsm': '360px'
       }
     },
   },
