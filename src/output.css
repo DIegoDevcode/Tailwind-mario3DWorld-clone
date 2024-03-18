@@ -1235,6 +1235,16 @@ video {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .xxsm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xxsm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 640px) {
